@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="format-detection" content="telephone=no">
+   <title>（模写）大阪北堀江の薬膳・養生ごはん天然食堂かふぅ</title>
+   <meta name="description" content="模写コーディングです。">
+   <link rel="icon" href="image/favicon.ico">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.css" defer>
+   <link rel="stylesheet" href="css/index.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous" defer></script>
+   <script src="script.js" defer></script>
+</head>
+<body>
+   <div class="body-wrap">
+      
+      <!-- header -->
+      <header id="header">
+         <div class="header-wrap">
+            <a href="index.html">
+               <img class="logo" src="image/logo.70cbfb2.svg" alt="ロゴ">
+            </a>
+            <a class="h-scroll-sns" href="#sns">
+               <img class="h-scroll-sns-img" src="image/header_sns_anchor_label_sm.e438074.svg" alt="OFFICIAL SNS">
+            </a>
+            <div class="h-navBtn-wrap">
+               <div class="h-navBtn">
+                  <div class="h-navBtn-open">
+                     <div></div>
+                     <div></div>
+                  </div>
+                  <div class="h-navBtn-close">
+                     <div></div>
+                     <div></div>
+                  </div>
+               </div>
+               <div class="h-navBtn-txt">
+                  <img class="h-navBtn-txt01" src="image/header_menu_button_label_menu.9dbe525.svg" alt="">
+                  <img class="h-navBtn-txt02" src="image/header_menu_button_label_close.3243280.svg" alt="">
+               </div>
+               <div class="h-navMenu"></div>
+            </div>
+            <ul class="h-navList-wrap">
+               <li class="h-navList">
+                  <a class="h-navList-link" href="index.html">
+                     <div class="h-navList-ja-wrap">
+                        <span class="h-navList-ja-bg"></span>
+                        <img class="h-navList-ja" src="image/menu_label_toppage_sm.06cc634.svg" alt="">
+                     </div>
+                     <img class="h-navList-en" src="image/menu_label_sub_toppage_sm.cccf68c.svg" alt="">
+                  </a>
+               </li>
+               <li class="h-navList">
+                  <a class="h-navList-link" href="">
+                     <div class="h-navList-ja-wrap">
+                        <img class="h-navList-ja" src="image/menu_label_concept_sm.d28526f.svg" alt="">
+                        <span class="h-navList-ja-bg"></span>
+                     </div>
+                     <img class="h-navList-en" src="image/menu_label_sub_concept_sm.2d93302.svg" alt="">
+                  </a>
+               </li>
+               <li class="h-navList">
+                  <a class="h-navList-link" href="">
+                     <div class="h-navList-ja-wrap">
+                        <img class="h-navList-ja" src="image/menu_label_how_to_cook_sm.16eb32b.svg" alt="">
+                        <span class="h-navList-ja-bg"></span>
+                     </div>
+                     <img class="h-navList-en" src="image/menu_label_sub_how_to_cook_sm.a8d2135.svg" alt="">
+                  </a>
+               </li>
+               <li class="h-navList">
+                  <a class="h-navList-link" href="">
+                     <div class="h-navList-ja-wrap">
+                        <img class="h-navList-ja" src="image/menu_label_menu_sm.9a2717d.svg" alt="">
+                        <span class="h-navList-ja-bg"></span>
+                     </div>
+                     <img class="h-navList-en" src="image/menu_label_sub_menu_sm.8144204.svg" alt="">
+                  </a>
+               </li>
+               <li class="h-navList">
+                  <a class="h-navList-link" href="">
+                     <div class="h-navList-ja-wrap">
+                        <img class="h-navList-ja" src="image/menu_label_gallery_sm.a3674eb.svg" alt="">
+                        <span class="h-navList-ja-bg"></span>
+                     </div>
+                     <img class="h-navList-en" src="image/menu_label_sub_gallery_sm.3e4f86b.svg" alt="">
+                  </a>
+               </li>
+               <li class="h-navList">
+                  <a class="h-navList-link" href="#access">
+                     <div class="h-navList-ja-wrap">
+                        <img class="h-navList-ja" src="image/menu_label_access_sm.60d8439.svg" alt="">
+                        <span class="h-navList-ja-bg"></span>
+                     </div>
+                     <img class="h-navList-en" src="image/menu_label_sub_access_sm.d4ea709.svg" alt="">
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </header>
+
+      <!-- mobile-menu -->
+      <div class="mobile-menu">
+         <div class="mobile-menu-inner">
+            <div class="mobile-menu-wrap">
+               <ul class="mobile-menu-list">
+                  <li class="mobile-menu-list-item mobile-menu-list-item01">
+                     <a href="index.html">
+                        <img class="mobile-menu-sub-ttl" src="image/menu_label_sub_toppage_sm.cccf68c.svg" alt="TOP PAGE">
+                        <img class="mobile-menu-ttl" src="image/menu_label_toppage_sm.06cc634.svg" alt="トップページ">
+                     </a>
+                  </li>
+                  <li class="mobile-menu-list-item mobile-menu-list-item02">
+                     <a href="#">
+                        <img class="mobile-menu-sub-ttl" src="image/menu_label_sub_concept_sm.2d93302.svg" alt="CONCEPT">
+                        <img class="mobile-menu-ttl" src="image/menu_label_concept_sm.d28526f.svg" alt="ごあいさつ">
+                     </a>
+                  </li>
+                  <li class="mobile-menu-list-item mobile-menu-list-item03">
+                     <a href="#">
+                        <img class="mobile-menu-sub-ttl" src="image/menu_label_sub_how_to_cook_sm.a8d2135.svg" alt="HOW TO COOK">
+                        <img class="mobile-menu-ttl" src="image/menu_label_how_to_cook_sm.16eb32b.svg" alt="養生ごはんのひみつ">
+                     </a>
+                  </li>
+                  <li class="mobile-menu-list-item mobile-menu-list-item04">
+                     <a href="#">
+                        <img class="mobile-menu-sub-ttl" src="image/menu_label_sub_menu_sm.8144204.svg" alt="CAFUU MENU">
+                        <img class="mobile-menu-ttl" src="image/menu_label_menu_sm.9a2717d.svg" alt="かふぅのメニュー">
+                     </a>
+                  </li>
+                  <li class="mobile-menu-list-item mobile-menu-list-item05">
+                     <a href="#">
+                        <img class="mobile-menu-sub-ttl" src="image/menu_label_sub_gallery_sm.3e4f86b.svg" alt="PHOTO GALLERY">
+                        <img class="mobile-menu-ttl" src="image/menu_label_gallery_sm.a3674eb.svg" alt="お店のご紹介">
+                     </a>
+                  </li>
+                  <li class="mobile-menu-list-item mobile-menu-list-item06">
+                     <a class="mobile-menu-link" href="#access">
+                        <img class="mobile-menu-sub-ttl" src="image/menu_label_sub_access_sm.d4ea709.svg" alt="ACCESS">
+                        <img class="mobile-menu-ttl" src="image/menu_label_access_sm.60d8439.svg" alt="アクセス情報">
+                     </a>
+                  </li>
+               </ul>
+               <div class="mobile-menu-sns">
+                  <img class="mobile-menu-sub-ttl" src="image/menu_sns_label_sub.3fc66eb.svg" alt="OFFICIAL SNS">
+                  <img class="mobile-menu-ttl" src="image/menu_sns_label.6102588.svg" alt="今日の日替わり配信中">
+                  <div class="sns-icon-wrap">
+                     <a class="sns-icon-box" href="https://twitter.com/cafuu_shokudou">
+                        <div class="sns-icon-container">
+                           <span class="twitter-icon sns-icon"></span>
+                           <i class="fab fa-twitter"></i>
+                        </div>
+                        <p class="sns-name-twitter sns-name">TWITTER</p>
+                     </a>
+                     <a class="sns-icon-box" href="https://www.instagram.com/cafuu_shokudou/">
+                        <div class="sns-icon-container">
+                           <span class="instagram-icon sns-icon"></span>
+                           <i class="fab fa-instagram"></i>
+                        </div>
+                        <p class="sns-name-instagram sns-name">INSTAGRAM</p>
+                     </a>
+                     <a class="sns-icon-box" href="https://www.facebook.com/%E5%A4%A9%E7%84%B6%E9%A3%9F%E5%A0%82%E3%81%8B%E3%81%B5%E3%81%85-231541146871401/">
+                        <div class="sns-icon-container">
+                           <span class="facebook-icon sns-icon"></span>
+                           <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <p class="sns-name-facebook sns-name">FACEBOOK</p>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- main -->
+      <main class="main">
+
+         <!-- toppage-view -->
+         <section id="toppage-first-view">
+            <div class="top-wrap">
+               <div class="top-ttl-wrap-mobile">
+                  <img class="top-ttl-sub" src="image/main_visual_sub_copy_sm.2f198b9.svg" alt="TENNEN-SYOKUDO CAFUU">
+                  <img class="top-ttl" src="image/main_visual_copy_sm.e81991b.svg" alt="食べることは生きること。">
+               </div>
+               <div class="top-ttl-wrap-pc">
+                  <img class="top-ttl-pc" src="image/main_visual_ttl.png" alt="食べることは生きること。">
+                  <img class="top-ttl-sub-pc" src="image/main_visual_sub_ttl.png" alt="TENNNEN SYOKUDO CAFUU">
+               </div>
+               <img class="top-img" src="image/top_image.jpg" alt="料理">
+               <div class="top-sns-wrap-pc">
+                  <a class="sns-name sns-name-twitter top-sns-link top-twitter-link" href="https://twitter.com/cafuu_shokudou">TWITTER</a>
+                  <a class="sns-name sns-name-instagram top-sns-link top-instagram-link" href="https://www.instagram.com/cafuu_shokudou/">INSTAGRAM</a>
+                  <a class="sns-name sns-name-facebook top-sns-link top-facebook-link" href="https://www.facebook.com/%E5%A4%A9%E7%84%B6%E9%A3%9F%E5%A0%82%E3%81%8B%E3%81%B5%E3%81%85-231541146871401/">FACEBOOK</a>
+               </div>
+               <a class="top-todaysDrink-wrap" href="#">
+                  <div class="todaysDrink-img-wrap">
+                     <div class="todaysDrink-sircle">
+                        <div class="todaysDrink-img-container">
+                           <img class="todaysDrink-img" src="image/todays_ippai01.png" alt="今日の一杯">
+                        </div>
+                        <img class="todaysDrink-txt-sircle" src="image/todays_txt_sircle.png" alt="今日のお疲れさまの一杯　あわぢびーる　島レモン">
+                     </div>
+                  </div>
+                  <div class="todaysDrink-txt-wrap">
+                     <div class="todaysDrink-ttl-wrap">
+                        <div class="todaysDrink-ttl-inner">
+                           <img class="todaysDrink-ttl-sub" src="image/fv_recommendation_sub_heading.c8d9ebc.svg" alt="TODAY's IPPAI">
+                           <p class="todaysDrink-ttl">今日のお疲れさまの一杯</p>
+                        </div>
+                     </div>
+                     <p class="todaysDrink-name">あわぢびーる<br>島レモン</p>
+                  </div>
+               </a>
+            </div>
+         </section>
+
+         <!-- notice01 -->
+         <section id="notice01">
+            <div class="notice-wrap">
+               <div class="notice-inner01">
+                  <p class="notice-tag">重要なお知らせ</p>
+                  <time class="notice-time" datetime="2021-03-29">2021.03.29</time>
+               </div>
+               <p class="notice-txt">新型コロナウイルスに関する当店の営業状況と感染予防対策実施について</p>
+               <div class="notice-btn-wrap">
+                  <span class="notice-btn">
+                     <i class="fas fa-search"></i>
+                     <span class="notice-btn-txt">詳しく見る</span>
+                  </span>
+               </div>
+            </div>
+         </section>
+
+         <!-- notice-modal -->
+         <div class="notice-modal">
+            <div class="notice-modal-inner">
+               <div class="notice-modal-wrap">
+                  <span class="notice-modal-close"><i class="fas fa-times"></i>CLOSE</span>
+                  <div class="notice-modal-main">
+                     <h2 class="notice-modal-ttl">新型コロナウイルスに関する当店の営業状況と<br class="br1">感染症予防対策実施について</h2>
+                     <p class="notice-modal-txt">この度の新型コロナウイルスの感染拡大に関しまして、お客様に安全にご利用いただけるよう当店として出来る限りの感染防止対策を実施しております。</p>
+                     <p class="notice-modal-txt">また、ご来店のお客様やスタッフの安全を考慮し、当面の間、営業時間の変更に加え、席数制限を設けて営業いたします。また、お店に入ってすぐ左壁に体温測定器がございますので、ご入店時は、手指消毒・体温測定にご協力くださいませ。体温が37.5℃以上の方は、恐れ入りますがご入店をご遠慮いただいておりますので、あらかじめご了承くださいませ。</p>
+                     <div class="notice-modal-box">
+                        <div class="notice-modal-box-inner01">
+                           <h3 class="notice-modal-box-ttl">
+                              <span class="modal-box-number">01</span>
+                              <span class="modal-box-ttl">営業時間・定休日・席数の変更について</span>
+                           </h3>
+                           <ul>
+                              <li>営業時間：<br>
+                                 月〜土 - 11:30〜19:30、19:00ラストオーダー（3/1〜）<br>
+                                 日 - 11:00〜15:00、14:30ラストオーダー（4/1〜）</li>
+                              <li>定休日：祝日</li>
+                              <li>席数：テーブル10席、カウンター4席</li>
+                           </ul>
+                           <p>当店のカウンター席には、クリアロールカーテンを設置した上で、席数を減らし、ソーシャルディスタンスを保っております。</p>
+                        </div>
+                        <img class="modal-box-img" src="image/modal_section_img_01.jpg" alt="お店の内装">
+                     </div>
+                     <div class="notice-modal-box">
+                        <div class="notice-modal-box-inner01">
+                           <h3 class="notice-modal-box-ttl">
+                              <span class="modal-box-number">02</span>
+                              <span class="modal-box-ttl">店内飲食及びサービスについて</span>
+                           </h3>
+                           <ul>
+                              <li>店内でお召し上がりいただけます。</li>
+                              <li>使い捨ての紙おしぼり、お箸に変更しております。</li>
+                              <li>お弁当販売(テイクアウト)を実施しております。</li>
+                              <li>かふぅドライブスルーもございますのでご活用ください（お車までお持ちいたします）。</li>
+                           </ul>
+                        </div>
+                        <img class="modal-box-img" src="image/modal_section_img_02.jpg" alt="お弁当（テイクアウト）">
+                     </div>
+                     <div class="notice-modal-box">
+                        <div class="notice-modal-box-inner01">
+                           <h3 class="notice-modal-box-ttl">
+                              <span class="modal-box-number">03</span>
+                              <span class="modal-box-ttl">メニューの変更について</span>
+                           </h3>
+                           <p class="notice-modal-box-txt">店内飲食およびお弁当販売について、料理提供内容を一部変更しております。<br class="br1">
+                              詳しくは、以下のメニューをご確認くださいませ。</p>
+                           <a class="modal-box-link" href="#">詳しく見る</a>
+                        </div>
+                        <img class="modal-box-img" src="image/modal_section_img_03.jpg" alt="ハンバーグ、天ぷら、玉子焼き">
+                     </div>
+                     <div class="notice-modal-sns">
+                        <p class="notice-modal-sns-txt">また状況が変わり次第、随時SNS<br class="br1">(Instagram・Twitter・Facebook)にて<br class="br2">ご案内させていただきます。</p>
+                        <div class="sns-icon-wrap">
+                           <a class="sns-icon-box" href="https://twitter.com/cafuu_shokudou">
+                              <div class="sns-icon-container">
+                                 <span class="twitter-icon sns-icon"></span>
+                                 <i class="fab fa-twitter"></i>
+                              </div>
+                              <p class="sns-name-twitter sns-name">TWITTER</p>
+                           </a>
+                           <a class="sns-icon-box" href="https://www.instagram.com/cafuu_shokudou/">
+                              <div class="sns-icon-container">
+                                 <span class="instagram-icon sns-icon"></span>
+                                 <i class="fab fa-instagram"></i>
+                              </div>
+                              <p class="sns-name-instagram sns-name">INSTAGRAM</p>
+                           </a>
+                           <a class="sns-icon-box" href="https://www.facebook.com/%E5%A4%A9%E7%84%B6%E9%A3%9F%E5%A0%82%E3%81%8B%E3%81%B5%E3%81%85-231541146871401/">
+                              <div class="sns-icon-container">
+                                 <span class="facebook-icon sns-icon"></span>
+                                 <i class="fab fa-facebook-f"></i>
+                              </div>
+                              <p class="sns-name-facebook sns-name">FACEBOOK</p>
+                           </a>
+                        </div>
+                     </div>
+                     <p class="notice-modal-txt">少しでもお客様のご心配を軽減してお楽しみいただけるよう、スタッフ一同、出来る限りの対策を取ってお迎えしておりますので、安心してお越しくださいませ。</p>
+                     <p class="notice-modal-txt notice-modal-txt-from">天然食堂かふぅ スタッフ一同</p>
+                  </div>
+                  <span class="notice-modal-close notice-modal-close02"><i class="fas fa-times"></i>CLOSE</span>
+               </div>
+            </div>
+         </div>
+
+         <!-- concept -->
+         <section id="concept">
+            <div class="concept-wrap sec-wrap">
+               <img class="concept-bg sec-bg" src="image/concept_script_sm.7aeed23.png" alt="">
+               <div class="concept-wrap-s">
+                  <div class="sec-ttl-wrap-row">
+                     <img class="sec-ttl-row" src="image/concept_heading_sm.952e7b6.svg" alt="ごあいさつ">
+                     <img class="sec-ttl-sub-row" src="image/concept_sub_heading_sm.1ac7c67.svg" alt="CONCEPT">
+                  </div>
+                  <div class="concept-txt-wrap">
+                     <p class="sec-txt concept-txt">2011年、北堀江にオープンした心と体が喜ぶ養生ごはんのお店、天然食堂かふぅ。「体に良いのに、何を食べても美味しい！」そんなお声が聞きたくて、今日も腕を振るいます。おひとり様はもちろん、大切な方と是非お越しください。</p>
+                     <a class="detail-wrap" href="#">
+                        <div class="detail-inner">
+                           <div class="detail-sircle">
+                              <span class="detail-sircle-s"></span>
+                           </div>
+                           <p class="detail-txt">詳しく見る</p>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <img class="concept-img" src="image/concept_image.jpg" alt="笑顔の従業員の写真">
+            </div>
+         </section>
+
+         <!-- secret -->
+         <section id="secret">
+            <div class="secret-wrap sec-wrap">
+               <img class="secret-bg sec-bg" src="image/how-to-cook_script_sm.dbafc95.png" alt="">
+               <div class="secret-wrap-s">
+                  <div class="sec-ttl-wrap-column">
+                     <img class="sec-ttl-sub-column" src="image/how-to-cook_sub_heading_sm.62c465f.svg" alt="HOW TO COOK">
+                     <img class="sec-ttl-column secret-ttl-mobile" src="image/how-to-cook_heading_sm.6b92179.svg" alt="養生ごはんのひみつ">
+                     <img class="sec-ttl-column secret-ttl-pc" src="image/menu_label_how_to_cook_sm.16eb32b.svg" alt="養生ごはんのひみつ">
+                  </div>
+                  <div class="secret-txt-wrap">
+                     <p class="sec-txt">無農薬・無添加の旬の食材にこだわり、全メニューに薬膳の考え方を取り入れています。麹や新鮮な野菜・果物からの酵素のパワー、発酵の力を利用する醤油麹、塩麹、酵素シロップもすべて手作り。健康と美味しさの両立を叶える、料理の秘訣がここにあります。</p>
+                     <a class="detail-wrap" href="#">
+                        <div class="detail-inner">
+                           <div class="detail-sircle">
+                              <span class="detail-sircle-s"></span>
+                           </div>
+                           <p class="detail-txt">詳しく見る</p>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="secret-img">
+                  <img src="image/howtocook_image.jpg" alt="養生ごはん">
+                  <img src="image/howtocook02_image.jpg" alt="玉子焼き">
+               </div>
+            </div>
+         </section>
+
+         <!-- cafuuMenu -->
+         <section id="cafuuMenu">
+            <div class="cafuuMenu-wrap sec-wrap">
+               <img class="cafuuMenu-bg sec-bg cafuuMenu-bg-mobile" src="image/menu_script_sm.223933a.png" alt="">
+               <img class="cafuuMenu-bg sec-bg cafuuMenu-bg-pc" src="image/menu_script_pc.png" alt="">
+               <div class="cafuuMenu-wrap-s">
+                  <div class="sec-ttl-wrap-row">
+                     <img class="sec-ttl-row" src="image/menu_heading_sm.741d8b5.svg" alt="かふぅのメニュー">
+                     <img class="sec-ttl-sub-row" src="image/menu_sub_heading_sm.ac4d0bb.svg" alt="CAFUU MENU">
+                  </div>
+                  <div class="cafuuMenu-txt-wrap">
+                     <p class="sec-txt">一品一品、丁寧に旨みと栄養を引き出しました。<br>
+                        心と体を整え、プチ不調や季節のお悩みを和らげます。<br>
+                        お酒も多数ご用意。ランチに、夜ごはん・宴会にどうぞ。</p>
+                     <a class="detail-wrap" href="#">
+                        <div class="detail-inner">
+                           <div class="detail-sircle">
+                              <span class="detail-sircle-s"></span>
+                           </div>
+                           <p class="detail-txt">詳しく見る</p>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="cafuuMenu-wrap-s02">
+                  <div class="swiper-container">
+                     <!-- Additional required wrapper -->
+                     <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                           <a class="slide-menu-link" href="#">
+                              <div class="slide-img-wrap">
+                                 <img class="slide-img" src="image/cafuu_menu_01.jpg" alt="薬膳鍋コース">
+                              </div>
+                              <p class="slide-img-tag">夜ごはん</p>
+                              <h3 class="slide-menu-name">薬膳鍋コース</h3>
+                              <p class="slide-menu-txt">金・土限定。3日前までに要予約。高麗人参・黄耆・棗・枸杞子と新鮮な朝引き鶏を煮込んだスープ。朝引きの手羽先・つくね・鶏むね肉のしゃぶしゃぶと季節の野菜を15～18種類。締めはプチプチ食感の玄米雑炊。薬膳茶付き。</p>
+                           </a>
+                        </div>
+                        <div class="swiper-slide">
+                           <a class="slide-menu-link" href="#">
+                              <div class="slide-img-wrap">
+                                 <img class="slide-img" src="image/cafuu_menu_02.jpg" alt="養生ごはんセット">
+                              </div>
+                              <p class="slide-img-tag">終日提供</p>
+                              <h3 class="slide-menu-name">養生ごはんセット</h3>
+                              <p class="slide-menu-txt">野菜・肉・魚・漢方食材を使った薬膳小鉢8品、玄米ご飯、重ね煮野菜の味噌汁、自家製漬物の日替わりセット。玄米ご飯、お味噌汁、お漬物を500円以内のドリンクに変更可能。</p>
+                           </a>
+                        </div>
+                        <div class="swiper-slide">
+                           <a class="slide-menu-link" href="#">
+                              <div class="slide-img-wrap">
+                                 <img class="slide-img" src="image/cafuu_menu_03.jpg" alt="鶏の薬膳唐揚セット">
+                              </div>
+                              <p class="slide-img-tag">ランチ</p>
+                              <h3 class="slide-menu-name">鶏の薬膳唐揚セット</h3>
+                              <p class="slide-menu-txt">かふぅ特製薬膳だれに付け込んだ鶏ももの唐揚、玄米ご飯、重ね煮野菜の味噌汁、自家製漬物のセット。玄米ご飯、お味噌汁、お漬物を500円以内のドリンクに変更可能。</p>
+                           </a>
+                        </div>
+                        <div class="swiper-slide">
+                           <a class="slide-menu-link" href="#">
+                              <div class="slide-img-wrap">
+                                 <img class="slide-img" src="image/cafuu_menu_04.jpg" alt="自家製酵素ソーダ">
+                              </div>
+                              <p class="slide-img-tag">ドリンク</p>
+                              <h3 class="slide-menu-name">自家製酵素ソーダ</h3>
+                              <p class="slide-menu-txt">砂糖と果物のみで作った自家製の果物酵素をソーダで割ってすっきりと（水割りもできます！）。時期によって果物の種類が変わります。</p>
+                           </a>
+                        </div>
+                        <div class="swiper-slide">
+                           <a class="slide-menu-link" href="#">
+                              <div class="slide-img-wrap">
+                                 <img class="slide-img" src="image/cafuu_menu_05.jpg" alt="日替わりかふぅ弁当">
+                              </div>
+                              <p class="slide-img-tag">テイクアウト</p>
+                              <h3 class="slide-menu-name">日替わりかふぅ弁当</h3>
+                              <p class="slide-menu-txt">そうざい3品、おかず（肉や魚介を使ったメイン）、玄米ご飯、自家製漬物の入ったお弁当。丁寧に作られたかふぅの味を家庭でもお召し上がり下さい。</p>
+                           </a>
+                        </div>
+                     </div>
+                     <!-- If we need scrollbar -->
+                     <div class="swiper-scrollbar"></div>
+                  </div>
+               </div>
+               <div class="swiper-container02">
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-next"></div>
+               </div>
+            </div>
+         </section>
+
+         <!-- intro -->
+         <section id="intro">
+            <div class="intro-wrap">
+               <img class="intro-bg sec-bg" src="image/gallery_script_sm.fbd9f24.png" alt="">
+               <div class="intro-wrap-s">
+                  <div class="intro-ttl-wrap sec-ttl-wrap-column">
+                     <img class="intro-ttl-sub sec-ttl-sub-column" src="image/gallery_sub_heading_sm.2c6e168.svg" alt="PHOTO GALLERY">
+                     <img class="intro-ttl sec-ttl-column" src="image/gallery_heading_sm.78ca954.svg" alt="お店のご紹介">
+                  </div>
+                  <div class="intro-txt-wrap">
+                     <p class="sec-txt">「心と体をいたわるお手伝い」それがかふぅのおもてなし。お水ではなく体を温めるお白湯を。落ち着いた店内で、ご自身のスタイルで心地良くお過ごしいただくため、カウンターとテーブル席をご用意。子ども用食器や絵本もあるのでお子様連れの方も歓迎です。</p>
+                     <a class="detail-wrap" href="#">
+                        <div class="detail-inner">
+                           <div class="detail-sircle">
+                              <span class="detail-sircle-s"></span>
+                           </div>
+                           <p class="detail-txt">詳しく見る</p>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="intro-img">
+                  <img src="image/gallery_image01.jpg" alt="店内のライト">
+                  <img src="image/gallery_image02.jpg" alt="内装">
+               </div>
+            </div>
+         </section>
+      </main>
+
+
+      <!-- sns -->
+      <section id="sns">
+         <div class="sns-wrap">
+            <img class="sns-bg sec-bg" src="image/sns_script_sm.c5a8d47.png" alt="">
+            <img class="sns-img sns-img-mobile" src="image/sns_image_sm.0a43471.jpg" alt="">
+            <img class="sns-img sns-img-pc" src="image/sns_image_pc.jpg" alt="">
+            <div class="sns-wrap-m">
+               <div class="sns-wrap-s">
+                  <div class="sns-inner01">
+                     <div class="sns-ttl-wrap sec-ttl-wrap-column">
+                        <img class="sec-ttl-sub-column" src="image/sns_sub_heading_sm.959e8c6.svg" alt="OFFICIAL SNS">
+                        <img class="sec-ttl-column sns-ttl-mobile" src="image/sns_heading_sm.68404ba.svg" alt="今日の日替わり配信中">
+                        <img class="sec-ttl-column sns-ttl-pc" src="image/menu_sns_label.6102588.svg" alt="今日の日替わり配信中">
+                     </div>
+                     <div class="sns-txt-wrap">
+                        <p class="sec-txt">日替わりの養生ごはんセットのメインおかずの内容や、最新の営業日・時間帯を毎日配信しています。珍しいお酒の入荷お知らせも。<br>
+                           是非お気軽にフォローしてくださいね。</p>
+                        <div class="sns-icon-wrap">
+                           <a class="sns-icon-box" href="https://twitter.com/cafuu_shokudou">
+                              <div class="sns-icon-container">
+                                 <span class="twitter-icon sns-icon"></span>
+                                 <i class="fab fa-twitter"></i>
+                              </div>
+                              <p class="sns-name-twitter sns-name">TWITTER</p>
+                           </a>
+                           <a class="sns-icon-box" href="https://www.instagram.com/cafuu_shokudou/">
+                              <div class="sns-icon-container">
+                                 <span class="instagram-icon sns-icon"></span>
+                                 <i class="fab fa-instagram"></i>
+                              </div>
+                              <p class="sns-name-instagram sns-name">INSTAGRAM</p>
+                           </a>
+                           <a class="sns-icon-box" href="https://www.facebook.com/%E5%A4%A9%E7%84%B6%E9%A3%9F%E5%A0%82%E3%81%8B%E3%81%B5%E3%81%85-231541146871401/">
+                              <div class="sns-icon-container">
+                                 <span class="facebook-icon sns-icon"></span>
+                                 <i class="fab fa-facebook-f"></i>
+                              </div>
+                              <p class="sns-name-facebook sns-name">FACEBOOK</p>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="sns-inner02">
+                     <div class="twitter-timeline-box">
+                        <a class="twitter-timeline" href="https://twitter.com/cafuu_shokudou?ref_src=twsrc%5Etfw">Tweets by cafuu_shokudou</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- access -->
+      <section id="access">
+         <div class="access-wrap">
+            <div class="googlemap-wrap">
+               <div class="googlemap-bg">
+                  <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.263963003001!2d135.49230131523143!3d34.6732868804415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7059fea558b%3A0x92e324ad307716da!2z5aSp54S26aOf5aCCIOOBi-OBteOBhg!5e0!3m2!1sja!2sjp!4v1623028824178!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  <a class="googlemap-link" href="https://goo.gl/maps/PiTK9cjuRM5diGQ9A">
+                     <p class="googlemap-link-txt">Googlemapで見る</p>
+                     <i class="fas fa-map-marker-alt"></i>
+                  </a>
+               </div>
+               <div class="access-ttl-wrap sec-ttl-wrap-row">
+                  <img class="sec-ttl-row" src="image/access_heading_sm.eccd33b.svg" alt="アクセス情報">
+                  <img class="sec-ttl-sub-row" src="image/access_sub_heading_sm.482416c.svg" alt="ACCESS INFO">
+               </div>
+            </div>
+            <div class="access-table-wrap">
+               <div class="access-table access-table01">
+                  <dl>
+                     <dt>住所</dt>
+                     <dd>〒550-0014　<br class="br1">大阪府大阪市西区北堀江1-14-21第一北堀江ビル1F</dd>
+                  </dl>
+                  <dl>
+                     <dt>交通手段</dt>
+                     <dd>地下鉄四ツ橋駅6番出口より徒歩2分 四ツ橋駅から236m</dd>
+                  </dl>
+                  <dl>
+                     <dt>TEL</dt>
+                     <dd>06-6533-0775</dd>
+                  </dl>
+                  <dl>
+                     <dt>メール</dt>
+                     <dd>cafuu_shokudou@yahoo.co.jp</dd>
+                  </dl>
+               </div>
+               <div class="access-table access-table02">
+                  <dl>
+                     <dt>営業時間</dt>
+                     <dd>
+                        <ul>
+                           <li>月 / 火 - 11:30～19:30 <br class="br1">19:00ラストオーダー（短縮営業）<br>
+                              ※同一週内に祝日があれば通常営業となります</li>
+                           <li>水〜土 - 11:30〜22:00 <br class="br1">21:30ラストオーダー（通常営業）</li>
+                           <li>日 - 11:00〜15:00 <br class="br1">14:30ラストオーダー</li>
+                        </ul>
+                     </dd>
+                  </dl>
+                  <dl>
+                     <dt>定休日</dt>
+                     <dd>祝日</dd>
+                  </dl>
+                  <dl>
+                     <dt>席数</dt>
+                     <dd>テーブル12席/カウンター8席</dd>
+                  </dl>
+               </div>
+            </div>
+            
+         </div>
+      </section>
+
+      <!-- notice02 -->
+      <section id="notice02">
+         <div class="notice-wrap">
+            <div class="notice-inner01">
+               <p class="notice-tag">重要なお知らせ</p>
+               <time class="notice-time" datetime="2021-03-29">2021.03.29</time>
+            </div>
+            <p class="notice-txt">新型コロナウイルスに関する当店の営業状況と感染予防対策実施について</p>
+            <p class="notice-btn">
+               <i class="fas fa-search"></i>
+               <span class="notice-btn-txt">詳しく見る</span>
+            </p>
+         </div>
+      </section>
+
+      <!-- pagetop -->
+      <section id="pagetop">
+         <div class="pagetop-wrap">
+            <div class="pagetop-btn">
+               <span class="triangle"></span>
+               <img class="pagetop-img" src="image/footer_pagetop_label_sm.76eab3f.svg">
+               <img class="pagetop-img-pc" src="image/footer_pagetop_label__pc_sm.76eab3f.png">
+            </div>
+         </div>
+      </section>
+
+      <!-- footer -->
+      <footer id="footer">
+         <small class="copyright">©️ CAFUU ALL RIGHTS RESERVED</small>
+      </footer>
+
+   </div>
+</body>
+</html>
